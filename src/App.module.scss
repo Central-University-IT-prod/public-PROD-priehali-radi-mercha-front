@@ -1,0 +1,11 @@
+main.container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  height: 200vh;
+  min-height: auto;
+
+  & > .contents {
+    padding: 24px 32px;
+  }
+}
